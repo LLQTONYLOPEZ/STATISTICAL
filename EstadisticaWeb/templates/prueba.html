@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css-Web/bootstrap/css/bootstrap.min.css' %}">
+    <script type="text/javascript" src="{% static 'PY/brython/brython.js' %}"></script>
+    <script type="text/javascript" src="{% static 'PY/brython/brython_stdlib.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css-Web/CURSOS/css/Gene.css' %}">
+    <script src="{% static 'css-Web/bootstrap/js/jquery.js' %}"></script>
+    <script src="{% static 'css-Web/bootstrap/js/bootstrap.min.js' %}"></script>
+    <link rel="icon" href="../static/img-web/ICON/logo1.png">
+    <title>Estadística</title>
+    
+  </head>
+  <body onload="brython()">
+    <!--div-->
+    <div class="contenedor">
+      <header>
+        <center><h2>Fundamentos de la Estadística</h2>
+      </header>
+
+      <main class="">
+          <p>Todo estudio estadístico inicia cuando se tienes el interés en un determinado suceso.
+            Así que será necesario hacerse presente en el lugar de los acontecimientos para recolectar la información necesaria
+          </p>
+          <!--div row terminada-->
+      </main>
+
+      <aside class="">
+          <details>
+            <summary><a href="#" id="TL">Estadistica</a> </summary>
+            <a href="#">Descriptiva</a>
+            <br> <a href="#">Inferencial</a>
+            <br> <a href="#">Parametrica</a>
+            <br> <a href="#">No Parametrica</a>
+          </details>
+      </aside>
+      <div class="widget1">
+        <h2>widget1</h2>
+      </div>
+      <div class="widget2">
+        <h2>widget2</h2>
+      </div>
+      <footer>
+        footer
+      </footer>
+    </div>
+    <!--div terminada-->
+
+  </body>
+</html>

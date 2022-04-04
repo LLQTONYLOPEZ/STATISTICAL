@@ -1,0 +1,40 @@
+.container{
+  margin-top: 230px;
+  color: white;
+
+}
+body{
+  background-image: url('/static/img-Web/INICIO/logo.jpg');
+  background-size: cover;
+}
+.row{
+}
+#sup{
+  background: rgba(26, 57, 42, 0.86);
+  border-radius: 5px;
+}
+#inf{
+  background: rgba(14, 85, 69, 0.84);
+  border-radius: 5px;
+}
+h5{
+  font-family: monospace;
+  font-size: large;
+  margin-top: 5px;
+}
+li{
+  font-family: monospace;
+  font-size: large;
+}
+a{
+  text-decoration: none;
+  font-family: monospace;
+  font-size: large;
+    color: rgb(207, 197, 185);
+}
+button{
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px black;
+  background: rgba(55, 61, 54,0.8);
+
+}

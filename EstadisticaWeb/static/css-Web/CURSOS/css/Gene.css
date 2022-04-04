@@ -1,0 +1,27 @@
+
+header{
+  padding: 10px;
+  background: rgba(29, 59, 210, 0.77);
+  border:
+}
+#TL {
+  font-size: x-large;
+}
+td, a, #TL{
+  text-decoration: none;
+}
+aside{
+  width: 320px;
+  background: rgba(99, 214, 28, 0.84);
+
+}
+.contenedor{
+  margin: 20px auto;
+  width: 90%;
+  max-width: 2000px;
+  grid-gap: 20px;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 20px;
+  grid-template-columns: auto;
+  display: grid;
+}

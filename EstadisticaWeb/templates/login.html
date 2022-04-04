@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Iniciar seción</title>
+    <link rel="stylesheet" href="{% static 'css-Web/bootstrap/css/bootstrap.min.css' %}">
+    <script type="text/javascript" src="{% static 'PY/brython/brython.js' %}"></script>
+    <script type="text/javascript" src="{% static 'PY/brython/brython_stdlib.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css-Web/LOGIN/css/Login.css' %}">
+    <script src="{% static 'css-Web/bootstrap/js/jquery.js' %}"></script>
+    <script src="{% static 'css-Web/bootstrap/js/bootstrap.min.js' %}"></script>
+    <link rel="icon" href="../static/img-web/ICON/logo1.png">
+  </head>
+
+  <body onload="brython()">
+    <script type="text/python" >
+      from browser import *
+      alert("Buen día")
+    </script>
+    <header>
+  <div class="bg-dark collapse" id="navbarHeader" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">Bienvenido</h4>
+          <p class="text-muted">Antes de registrarte deberas tener en cuenta que serás evaluado
+           para poder pertenecer a esta gran familia y para eso, al registrarte se te enviara una notificacion a tu perfil
+           de lo que debes hacer demostrando tus conocimientos, caso contrario no podras utilizar nuestra ayuda. </p><p></p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">proestatiskccl@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="Informacion" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+        <strong>ProStatistical</strong>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<br>
+    <div class="container">
+      <div class="row" id="row1">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+          <form id="form1">
+
+    <h1 class="h3 mb-3 fw-normal"><center>Login</center></h1>
+    <label for="inputEmail" class="visually-hidden">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electronico" required="" autofocus="">
+    <label for="inputPassword" class="visually-hidden">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Recordar
+      </label>
+
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" id="bt" type="submit">ingresar</button>
+    <div>
+    <br>  <center>Si olvidaste tu contraseña <a  class="Monospace"href="Recover">Ingresa aqui</a> </center>
+    </div>
+      <center><a id="mtop"href="#">Registrate</a>
+  </form>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

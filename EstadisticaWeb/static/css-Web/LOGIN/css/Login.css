@@ -1,0 +1,28 @@
+#row1{
+  margin: 30px;
+}
+#form1{
+  box-shadow: 0px 0px 5px 5px black;
+  padding: 20px;
+  border-radius: 5px;
+  background: rgba(213, 208, 214, 0.48);
+}#form1:hover{
+  transition: 1s;
+
+}
+body{
+  background-image: url('/static/img-Web/LOGIN/fondo6.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: absolute;
+}
+.Monospace{
+  font-family: monospace;
+  text-decoration: none;
+  color: white;
+}
+#mtop{
+  margin-top: 15px;
+  color: blue;
+}
